@@ -237,3 +237,11 @@ a .checklist .badge-primary:hover {
   font-size: 30px;
 }
 
+.navbar-light .navbar-toggler-icon {
+}
+
+button:focus {
+  outline: none;
+  outline: none;
+}
+
