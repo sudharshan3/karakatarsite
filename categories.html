@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="92x92" href="assets/img/favi.png">
     <link rel="icon" type="image/png" sizes="92x92" href="assets/img/favi.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -22,15 +23,19 @@
     <link rel="stylesheet" href="assets/css/Animated-numbers-section.css">
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
     <link rel="stylesheet" href="assets/css/Drag-and-Drop-File-Input.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Media-Slider-Bootstrap-3-1.css">
+    <link rel="stylesheet" href="assets/css/Media-Slider-Bootstrap-3.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/Product-Viewer-1.css">
-    <link rel="stylesheet" href="assets/css/PRODUCTDISPLAY.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/Product-Slider-3.css">
+    <link rel="stylesheet" href="assets/css/Product-Slider-9.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
 </head>
 
 <body style="background-color: #f8f8f8;">
@@ -40,123 +45,124 @@
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link active" href="categories.html">Categories</a></li>
-                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="#">Dashbaord</a></li>
-                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="categories.html">Categories</a></li>
+                    <li class="nav-item" role="presentation" style="margin-right: 10px;margin-left: 10px;"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item d-xl-flex justify-content-xl-center align-items-xl-center" role="presentation"><a class="nav-link" href="#" style="color: #008ddd;font-family: poppins;font-weight: 500;margin-right: 10px;margin-left: 10px;">Login</a></li>
+                    <li class="nav-item d-xl-flex justify-content-xl-center align-items-xl-center" role="presentation"><a class="nav-link" href="login.html" style="color: #008ddd;font-family: poppins;font-weight: 500;margin-right: 10px;margin-left: 10px;">Login</a></li>
                     <li class="nav-item text-left" role="presentation" style="padding-top: 8px;padding-bottom: 8px;padding-right: 18px;padding-left: 18px;"><a class="btn btn-primary" role="button" style="font-family: poppins;background-color: #008ddd;" href="postad.html">&nbsp; Post an Ad</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <section class="shadow searchbar" id="searchdesk" style="position: sticky;top: 60px;z-index: 99;background-color: #ffffff;padding: 20px 0px;">
-        <div class="container">
-            <div>
-                <form>
-                    <div class="form-row">
-                        <div class="col-6 align-self-start" style="padding-right: 0px;padding-left: 0px;"><input class="form-control form-control-lg" type="text" placeholder="Search Products..." style="border-radius: 6px 0px 0px 6px;font-family: Poppins, sans-serif;font-size: 16px;border: .5px solid rgba(0,141,221,0.25);"></div>
-                        <div
-                            class="col align-self-center" style="padding-right: 0px;padding-left: 0px;">
-                            <div class="dropdown"><button class="btn btn-primary btn-block btn-lg dropdown-toggle d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" data-toggle="dropdown" aria-expanded="false" type="button" style="font-family: poppins;font-size: 16px;border-radius: 0px;background-color: #ffffff;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);opacity: 1;"><i class="icon-grid" style="font-size: 20px;"></i>Categories</button>
-                                <div
-                                    class="dropdown-menu shadow" role="menu" style="width: auto;border: none;border-radius: 6px;margin-top: 10px;transition: 1s ease-in;padding: 8px 10px;"><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-bag" style="margin-right: 10px;border-radius: 6px;padding: 10px;"></i>Clothing</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
-                                        role="presentation" href="#"><i class="icon-earphones" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Electronics</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation"
-                                        href="#"><i class="icon-rocket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Automobiles</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-book-open" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Books</a>
-                                    <a
-                                        class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-basket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Groceries / Shopping</a>
-                            </div>
-                    </div>
+    <section id="searcgbar">
+        <section class="shadow searchbar" id="searchdesk" style="position: sticky;top: 60px;z-index: 99;background-color: #ffffff;padding: 20px 0px;">
+            <div class="container">
+                <div>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-6 align-self-start" style="padding-right: 0px;padding-left: 0px;"><input class="form-control form-control-lg" type="text" placeholder="Search Products..." style="border-radius: 6px 0px 0px 6px;font-family: Poppins, sans-serif;font-size: 16px;border: .5px solid rgba(0,141,221,0.25);"></div>
+                            <div
+                                class="col align-self-center" style="padding-right: 0px;padding-left: 0px;">
+                                <div class="dropdown"><button class="btn btn-primary btn-block btn-lg dropdown-toggle d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" data-toggle="dropdown" aria-expanded="false" type="button" style="font-family: poppins;font-size: 16px;border-radius: 0px;background-color: #ffffff;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);opacity: 1;"><i class="icon-grid" style="font-size: 20px;"></i>Categories</button>
+                                    <div
+                                        class="dropdown-menu shadow" role="menu" style="width: auto;border: none;border-radius: 6px;margin-top: 10px;transition: 1s ease-in;padding: 8px 10px;"><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-bag" style="margin-right: 10px;border-radius: 6px;padding: 10px;"></i>Clothing</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
+                                            role="presentation" href="#"><i class="icon-earphones" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Electronics</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
+                                            role="presentation" href="#"><i class="icon-rocket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Automobiles</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
+                                            role="presentation" href="#"><i class="icon-book-open" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Books</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation"
+                                            href="#"><i class="icon-basket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Groceries / Shopping</a></div>
+                        </div>
+                </div>
+                <div class="col align-self-center" style="padding: 0px 0px;"><a class="btn btn-primary btn-block btn-lg text-truncate d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" role="button" style="border-radius: 0px;background-color: #ffffff;font-size: 16px;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);font-family: Poppins, sans-serif;"
+                        data-target="#location" data-toggle="modal"><i class="icon-location-pin" style="font-size: 20px;"></i>Location<i class="material-icons">arrow_drop_down</i></a></div>
+                <div class="col-1 align-self-center" style="padding: 0px 0px;"><button class="btn btn-primary btn-block btn-lg searchbtn" type="button"><i class="fa fa-search"></i></button></div>
             </div>
-            <div class="col align-self-center" style="padding: 0px 0px;"><a class="btn btn-primary btn-block btn-lg text-truncate d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" role="button" style="border-radius: 0px;background-color: #ffffff;font-size: 16px;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);font-family: Poppins, sans-serif;"
-                    data-target="#location" data-toggle="modal"><i class="icon-location-pin" style="font-size: 20px;"></i>Location<i class="material-icons">arrow_drop_down</i></a></div>
-            <div class="col-1 align-self-center" style="padding: 0px 0px;"><button class="btn btn-primary btn-block btn-lg searchbtn" type="button"><i class="fa fa-search"></i></button></div>
+            </form>
+            </div>
+            </div>
+        </section>
+        <section class="shadow searchbarmobile" id="searchmobile" style="position: sticky;top: 60px;z-index: 99;background-color: #ffffff;padding: 10px 0px;padding-bottom: 5px;">
+            <div class="container">
+                <div>
+                    <form>
+                        <div class="form-group d-flex justify-content-center align-items-center"><button class="btn btn-primary btn-lg d-flex align-items-center" type="button" style="border-radius: 6px 0px 0px 6px;border: .5px solid rgba(0,141,221,0.25);background: #fff;font-family: poppins;font-size: 16px;color: #484848;width: 100%;"
+                                data-target="#mobilesearch" data-toggle="modal"><i class="icon-magnifier"></i>&nbsp; &nbsp;Search</button><button class="btn btn-primary btn-lg d-flex align-items-center" type="button" style="border-radius: 0px 6px 6px 0px;border: .5px solid rgba(0,141,221,0.25);background: #fff;font-family: poppins;font-size: 16px;color: #484848;"
+                                data-target="#location-m" data-toggle="modal"><i class="icon-location-pin"></i>&nbsp;</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="modal" role="dialog" tabindex="-1" id="mobilesearch" style="padding-top: 55px;">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-body" style="border-radius: 10px;width: 100%;">
+                        <div>
+                            <form>
+                                <div class="form-row row-cols-1">
+                                    <div class="col align-self-start" style="padding-right: 0px;padding-left: 0px;margin-bottom: 10px;"><input class="form-control form-control-lg" type="text" placeholder="Search Products..." style="border-radius: 6px 0px 0px 6px;font-family: Poppins, sans-serif;font-size: 16px;border: .5px solid rgba(0,141,221,0.25);"></div>
+                                    <div
+                                        class="col align-self-center" style="padding-right: 0px;padding-left: 0px;margin-bottom: 10px;">
+                                        <div class="dropdown"><button class="btn btn-primary btn-block btn-lg dropdown-toggle d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" data-toggle="dropdown" aria-expanded="false" type="button" style="font-family: poppins;font-size: 16px;border-radius: 0px;background-color: #ffffff;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);opacity: 1;"><i class="icon-grid" style="font-size: 20px;"></i>Categories</button>
+                                            <div
+                                                class="dropdown-menu shadow" role="menu" style="width: 100%;border: none;border-radius: 6px;margin-top: 10px;transition: 1s ease-in;padding: 8px 10px;"><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-bag" style="margin-right: 10px;border-radius: 6px;padding: 10px;"></i>Clothing</a>
+                                                <a
+                                                    class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-earphones" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Electronics</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation"
+                                                        href="#"><i class="icon-rocket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Automobiles</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation"
+                                                        href="#"><i class="icon-book-open" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Books</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation"
+                                                        href="#"><i class="icon-basket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Groceries / Shopping</a></div>
+                                </div>
+                        </div>
+                        <div class="col align-self-center" style="padding: 0px 0px;margin-bottom: 10px;"><a class="btn btn-primary btn-block btn-lg text-truncate d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" role="button" style="border-radius: 0px;background-color: #ffffff;font-size: 16px;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);font-family: Poppins, sans-serif;"
+                                data-target="#location-m" data-toggle="modal"><i class="icon-location-pin" style="font-size: 20px;"></i>Location<i class="material-icons">arrow_drop_down</i></a></div>
+                        <div class="col align-self-center" style="padding: 0px 0px;margin-bottom: 10px;"><button class="btn btn-primary btn-block btn-lg" type="button" style="font-family: Poppins, sans-serif;font-size: 16px;"><i class="fa fa-search"></i>&nbsp; &nbsp;Search</button></div>
+                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        </form>
         </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="location" style="font-family: Poppins, sans-serif;">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title text-center" style="font-size: 16px;font-weight: bold;">&nbsp; Select Location</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body d-flex d-xl-flex justify-content-center align-items-start align-content-stretch justify-content-xl-center align-items-xl-start"
+                        style="height: 400px;position: relative;filter: blur(0px);padding: 0px;">
+                        <form class="d-flex justify-content-between align-items-center" style="z-index: 10;width: 100%;padding-right: 30px;padding-left: 30px;padding-top: 30px;">
+                            <div class="input-group input-group-lg shadow" style="border-radius: 6px;">
+                                <div class="input-group-prepend"><span class="input-group-text" style="background-color: #ffffff;"><i class="icon-location-pin"></i></span></div><input class="form-control" type="text" style="height: 100%;font-family: poppins;" placeholder="Search  Location..."
+                                    autocomplete="off">
+                                <div class="input-group-append"><button class="btn btn-primary" type="button" style="background-color: #008ddd;"><i class="fas fa-search"></i></button></div>
+                            </div>
+                        </form>
+                        <div style="position: absolute;background-image: url(&quot;assets/img/B6fEt.png&quot;);background-size: cover;background-repeat: no-repeat;width: 100%;height: 100%;filter: blur(3px) contrast(81%) hue-rotate(0deg) saturate(126%);opacity: 0.56;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="location-m" style="font-family: Poppins, sans-serif;">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title text-center" style="font-size: 16px;font-weight: bold;">&nbsp; Select Location</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body d-flex d-xl-flex justify-content-center align-items-start align-content-stretch justify-content-xl-center align-items-xl-start"
+                        style="height: 100vh;position: relative;filter: blur(0px);padding: 0px;">
+                        <form class="d-flex justify-content-between align-items-center" style="z-index: 10;width: 100%;padding: 10px;">
+                            <div class="input-group input-group-lg shadow" style="border-radius: 6px;">
+                                <div class="input-group-prepend"><span class="input-group-text" data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" style="background-color: #ffffff;" title="To use this option you must enable browser location settings"><i class="icon-location-pin"></i></span></div>
+                                <input
+                                    class="form-control" type="text" style="height: 100%;font-family: poppins;font-size: 16px;" placeholder="Search  Location..." autocomplete="off">
+                                    <div class="input-group-append"><button class="btn btn-primary" type="button" style="background-color: #008ddd;font-size: 16px;"><i class="fas fa-search"></i></button></div>
+                            </div>
+                        </form>
+                        <div style="position: absolute;background-image: url(&quot;assets/img/B6fEt.png&quot;);background-size: cover;background-repeat: no-repeat;width: 100%;height: 100%;filter: blur(3px) contrast(81%) hue-rotate(0deg) saturate(126%);opacity: 0.56;"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="shadow searchbarmobile" id="searchmobile" style="position: sticky;top: 60px;z-index: 99;background-color: #ffffff;padding: 10px 0px;padding-bottom: 5px;">
-        <div class="container">
-            <div>
-                <form>
-                    <div class="form-group d-flex justify-content-center align-items-center"><button class="btn btn-primary btn-lg d-flex align-items-center" type="button" style="border-radius: 6px 0px 0px 6px;border: .5px solid rgba(0,141,221,0.25);background: #fff;font-family: poppins;font-size: 16px;color: #484848;width: 100%;"
-                            data-target="#mobilesearch" data-toggle="modal"><i class="icon-magnifier"></i>&nbsp; &nbsp;Search</button><button class="btn btn-primary btn-lg d-flex align-items-center" type="button" style="border-radius: 0px 6px 6px 0px;border: .5px solid rgba(0,141,221,0.25);background: #fff;font-family: poppins;font-size: 16px;color: #484848;"
-                            data-target="#location-m" data-toggle="modal"><i class="icon-location-pin"></i>&nbsp;</button></div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <div class="modal" role="dialog" tabindex="-1" id="mobilesearch" style="padding-top: 55px;">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-body" style="border-radius: 10px;width: 100%;">
-                    <div>
-                        <form>
-                            <div class="form-row row-cols-1">
-                                <div class="col align-self-start" style="padding-right: 0px;padding-left: 0px;margin-bottom: 10px;"><input class="form-control form-control-lg" type="text" placeholder="Search Products..." style="border-radius: 6px 0px 0px 6px;font-family: Poppins, sans-serif;font-size: 16px;border: .5px solid rgba(0,141,221,0.25);"></div>
-                                <div
-                                    class="col align-self-center" style="padding-right: 0px;padding-left: 0px;margin-bottom: 10px;">
-                                    <div class="dropdown"><button class="btn btn-primary btn-block btn-lg dropdown-toggle d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" data-toggle="dropdown" aria-expanded="false" type="button" style="font-family: poppins;font-size: 16px;border-radius: 0px;background-color: #ffffff;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);opacity: 1;"><i class="icon-grid" style="font-size: 20px;"></i>Categories</button>
-                                        <div
-                                            class="dropdown-menu shadow" role="menu" style="width: 100%;border: none;border-radius: 6px;margin-top: 10px;transition: 1s ease-in;padding: 8px 10px;"><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center" role="presentation" href="#"><i class="icon-bag" style="margin-right: 10px;border-radius: 6px;padding: 10px;"></i>Clothing</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
-                                                role="presentation" href="#"><i class="icon-earphones" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Electronics</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
-                                                role="presentation" href="#"><i class="icon-rocket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Automobiles</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
-                                                role="presentation" href="#"><i class="icon-book-open" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Books</a><a class="dropdown-item d-xl-flex justify-content-start align-items-xl-center"
-                                                role="presentation" href="#"><i class="icon-basket" style="margin-right: 10px;padding: 10px;border-radius: 6px;"></i>Groceries / Shopping</a></div>
-                            </div>
-                    </div>
-                    <div class="col align-self-center" style="padding: 0px 0px;margin-bottom: 10px;"><a class="btn btn-primary btn-block btn-lg text-truncate d-flex d-xl-flex justify-content-between align-items-center align-items-xl-center" role="button" style="border-radius: 0px;background-color: #ffffff;font-size: 16px;color: rgba(73,80,87,0.83);border: .5px solid rgba(0,141,221,0.25);font-family: Poppins, sans-serif;"
-                            data-target="#location-m" data-toggle="modal"><i class="icon-location-pin" style="font-size: 20px;"></i>Location<i class="material-icons">arrow_drop_down</i></a></div>
-                    <div class="col align-self-center" style="padding: 0px 0px;margin-bottom: 10px;"><button class="btn btn-primary btn-block btn-lg" type="button" style="font-family: Poppins, sans-serif;font-size: 16px;"><i class="fa fa-search"></i>&nbsp; &nbsp;Search</button></div>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="location" style="font-family: Poppins, sans-serif;">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title text-center" style="font-size: 16px;font-weight: bold;">&nbsp; Select Location</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body d-flex d-xl-flex justify-content-center align-items-start align-content-stretch justify-content-xl-center align-items-xl-start"
-                    style="height: 400px;position: relative;filter: blur(0px);padding: 0px;">
-                    <form class="d-flex justify-content-between align-items-center" style="z-index: 10;width: 100%;padding-right: 30px;padding-left: 30px;padding-top: 30px;">
-                        <div class="input-group input-group-lg shadow" style="border-radius: 6px;">
-                            <div class="input-group-prepend"><span class="input-group-text" style="background-color: #ffffff;"><i class="icon-location-pin"></i></span></div><input class="form-control" type="text" style="height: 100%;font-family: poppins;" placeholder="Search  Location..."
-                                autocomplete="off">
-                            <div class="input-group-append"><button class="btn btn-primary" type="button" style="background-color: #008ddd;"><i class="fas fa-search"></i></button></div>
-                        </div>
-                    </form>
-                    <div style="position: absolute;background-image: url(&quot;assets/img/B6fEt.png&quot;);background-size: cover;background-repeat: no-repeat;width: 100%;height: 100%;filter: blur(3px) contrast(81%) hue-rotate(0deg) saturate(126%);opacity: 0.56;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="location-m" style="font-family: Poppins, sans-serif;">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title text-center" style="font-size: 16px;font-weight: bold;">&nbsp; Select Location</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body d-flex d-xl-flex justify-content-center align-items-start align-content-stretch justify-content-xl-center align-items-xl-start"
-                    style="height: 100vh;position: relative;filter: blur(0px);padding: 0px;">
-                    <form class="d-flex justify-content-between align-items-center" style="z-index: 10;width: 100%;padding: 10px;">
-                        <div class="input-group input-group-lg shadow" style="border-radius: 6px;">
-                            <div class="input-group-prepend"><span class="input-group-text" data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" style="background-color: #ffffff;" title="To use this option you must enable browser location settings"><i class="icon-location-pin"></i></span></div>
-                            <input
-                                class="form-control" type="text" style="height: 100%;font-family: poppins;font-size: 16px;" placeholder="Search  Location..." autocomplete="off">
-                                <div class="input-group-append"><button class="btn btn-primary" type="button" style="background-color: #008ddd;font-size: 16px;"><i class="fas fa-search"></i></button></div>
-                        </div>
-                    </form>
-                    <div style="position: absolute;background-image: url(&quot;assets/img/B6fEt.png&quot;);background-size: cover;background-repeat: no-repeat;width: 100%;height: 100%;filter: blur(3px) contrast(81%) hue-rotate(0deg) saturate(126%);opacity: 0.56;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     <section style="padding-bottom: 20px;position: relative;height: 300px;">
         <div style="border-radius: 0px 0px 10% 10%;background-color: rgb(207,230,243);height: 100%;background-image: url(&quot;assets/img/banner.png&quot;);background-position: center;background-size: cover;background-repeat: no-repeat;">
             <div class="container" style="padding-top: 50px;">
@@ -178,24 +184,24 @@
                             <div class="col-md-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
                                 <div class="card" style="background-color: rgba(0,141,221,0.1);border-radius: 6px;padding-bottom: 0px;position: relative;height: 150px;padding-top: 10px;padding-left: 10px;margin-top: 5px;margin-bottom: 5px;">
                                     <h1 style="font-size: 18px;font-family: poppins;color: #008ddd;"><strong>Electronics</strong></h1>
-                                    <p style="font-family: poppins;font-size: 15px;color: #070707;">38 Products</p><img src="assets/img/smart-thermostat-copy-removebg-preview.png" style="position: absolute;width: 100px;bottom: 0;right: 0;"></div>
+                                    <p style="font-family: poppins;font-size: 15px;color: #070707;">38 Products</p><img class="scale" src="assets/img/smart-thermostat-copy-removebg-preview.png"></div>
                             </div>
                             <div class="col-md-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
                                 <div class="card" style="background-color: rgba(16,188,131,0.1);border-radius: 6px;padding-bottom: 0px;position: relative;height: 150px;padding-top: 10px;padding-left: 10px;margin-top: 5px;margin-bottom: 5px;">
                                     <h1 style="font-size: 18px;font-family: poppins;color: #10BC83;"><strong>Books</strong></h1>
-                                    <p style="font-family: poppins;font-size: 15px;color: #070707;">38 Products</p><img src="assets/img/sticker-png-the-mystery-box-eva-pohler-amazon-com-e-book-book-amazon-amazon-kindle-mystery-mystery-box-removebg-preview.png" style="position: absolute;width: 100px;bottom: 0;right: 0;"></div>
+                                    <p style="font-family: poppins;font-size: 15px;color: #070707;">38 Products</p><img class="scale" src="assets/img/sticker-png-the-mystery-box-eva-pohler-amazon-com-e-book-book-amazon-amazon-kindle-mystery-mystery-box-removebg-preview.png"></div>
                             </div>
                             <div class="col-md-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
                                 <a href="clothings.html" style="text-decoration: none;">
                                     <div class="card" style="background-color: rgba(77,134,152,0.1);border-radius: 6px;padding-bottom: 0px;position: relative;height: 150px;padding-top: 10px;padding-left: 10px;margin-top: 5px;margin-bottom: 5px;">
                                         <h1 style="font-size: 18px;font-family: poppins;color: #4D8698;"><strong>Clothings</strong></h1>
-                                        <p style="font-family: poppins;font-size: 15px;color: #070707;">20 Products</p><img src="assets/img/4254e3fcf298f49ea9235936241556f8-removebg-preview.png" style="position: absolute;width: 120px;bottom: 0;right: 0;"></div>
+                                        <p style="font-family: poppins;font-size: 15px;color: #070707;">20 Products</p><img class="scale" src="assets/img/4254e3fcf298f49ea9235936241556f8-removebg-preview.png"></div>
                                 </a>
                             </div>
                             <div class="col-md-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
                                 <div class="card" style="background-color: rgba(184,149,90,0.1);border-radius: 6px;padding-bottom: 0px;position: relative;height: 150px;padding-top: 10px;padding-left: 10px;margin-top: 5px;margin-bottom: 5px;">
                                     <h1 style="font-size: 18px;font-family: poppins;color: #B8955A;"><strong>Automobiles</strong></h1>
-                                    <p style="font-family: poppins;font-size: 15px;color: #070707;">38 Products</p><img src="assets/img/557-5573733_view-all-bikes-royal-enfield-bullet-hd-png-removebg-preview.png" style="position: absolute;width: 120px;bottom: 0;right: 0;"></div>
+                                    <p style="font-family: poppins;font-size: 15px;color: #070707;">38 Products</p><img class="scale" src="assets/img/557-5573733_view-all-bikes-royal-enfield-bullet-hd-png-removebg-preview.png"></div>
                             </div>
                         </div>
                     </div>
@@ -555,20 +561,23 @@
         </footer>
         <div class="social" style="padding-bottom: 10px;padding-top: 10px;background-color: #008ddd;color: #ffffff;"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquerydash.min.js"></script>
+    <script src="assets/js/bs-initdash.js"></script>
+    
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/productlisitng.js"></script>
-    <script src="assets/js/productlisitng-1.js"></script>
     <script src="assets/js/Animated-numbers-section.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Drag-and-Drop-File-Input.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/Product-Viewer-1-1.js"></script>
-    <script src="assets/js/Product-Viewer-1.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/Media-Slider-Bootstrap-3.js"></script>
+    <script src="assets/js/Product-Slider-3-1.js"></script>
+    <script src="assets/js/Product-Slider-3-2.js"></script>
+    <script src="assets/js/Product-Slider-3-3.js"></script>
+    <script src="assets/js/Product-Slider-3.js"></script>
+    <script src="assets/js/Product-Slider-9.js"></script>
 </body>
 
 </html>
