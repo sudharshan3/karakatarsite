@@ -1,0 +1,120 @@
+.card.shadow {
+  border-left: none!important;
+}
+
+.strip:hover {
+  background: rgba(255,255,255,0.27);
+  transition: .3s eas-in-out;
+}
+
+.strip {
+}
+
+.strip:hover > .ls {
+  color: #000;
+}
+
+.ls {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .sidepanel {
+    display: none;
+  }
+}
+
+@media (max-width: 762px) {
+  .logo {
+    display: none;
+  }
+}
+
+.no-arrow:a {
+  border-radius: 10px;
+  background: rgba(0,141,221,0.1);
+}
+
+.alerts {
+  border-radius: 10px;
+}
+
+.alerts:focus {
+  background: rgba(0,141,221,0.1);
+}
+
+.alerts:hover {
+  background: rgba(0,141,221,0.1);
+  color: #008ddd;
+}
+
+.strip:focus {
+  background: rgba(255,255,255,0.27);
+  transition: .3s eas-in-out;
+  border-radius: 10px;
+}
+
+@media (min-width:768px) {
+  .mnavbar {
+    display: none!important;
+  }
+}
+
+@media (max-width:768px) {
+  .mnavbar {
+    display: block;
+  }
+}
+
+.mnavbar {
+  position: fixed;
+  bottom: 0;
+  background-color: #008ddd;
+  z-index: 9999;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #f1f1f1;
+  background-color: #008ddd;
+  border-color: #dddfeb #dddfeb #fff;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-radius: 6px;
+  color: #008ddd;
+  background: rgba(0,141,221,0.1);
+  border-radius: 6px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0,141,221,0.11);
+  color: #008ddd;
+}
+
+@media (max-width: 768px) {
+  .tabads {
+    display: none!important;
+  }
+}
+
+@media (max-width: 700px) {
+  .tabbody {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .tabmob {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabm {
+    width: 100%;
+  }
+}
+

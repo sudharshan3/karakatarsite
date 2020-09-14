@@ -1,0 +1,122 @@
+.wrapper-numbers {
+  color: #fff;
+  background: #141E30;
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243B55, #141E30);
+  padding: 60px 0 45px;
+  text-align: center;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.header-numbers {
+  margin-bottom: 40px;
+}
+
+.wrapper-numbers h1, .wrapper-numbers h2, .wrapper-numbers h3, .wrapper-numbers h4 {
+  margin: 0 0 15px;
+  color: #fff;
+}
+
+.count, .countup i {
+  font-size: 50px;
+  line-height: 1;
+}
+
+.sup {
+  font-size: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.column {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navigation-clean {
+  background: #fff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #222;
+}
+
+.navigation-clean .navbar-brand img {
+  height: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  width: auto;
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggler:hover, .navigation-clean .navbar-toggler:focus {
+  background: none;
+}
+
+.navigation-clean .navbar-toggler {
+  color: #888;
+}
+
+.navigation-clean .navbar-collapse, .navigation-clean .form-inline {
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #008ddd;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+  font-family: poppins;
+  font-weight: 500;
+  border-radius: 6px;
+  background: rgba(0,141,221,0.1);
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #070707;
+  font-family: poppins;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #008ddd !important;
+  background: rgba(0,141,221,0.1);
+  font-family: poppins;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.navbar-light .navbar-toggler-icon {
+}
+
+button:focus {
+  outline: none;
+  outline: none;
+}
+

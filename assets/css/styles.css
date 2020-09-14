@@ -2,7 +2,7 @@
   text-align: left!important;
   font-family: poppins;
   font-size: 20px;
-  color: #008ddd;
+  color: #3f018d;
 }
 
 .card:hover {
@@ -243,5 +243,22 @@ a .checklist .badge-primary:hover {
 button:focus {
   outline: none;
   outline: none;
+}
+
+.card:hover > scale {
+  transform: scale(3);
+}
+
+.scale {
+  position: absolute;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+}
+
+.card:hover > .scale {
+  transform: scale(1.4);
+  transform-origin: right bottom;
+  transition: 0.3s ease-in;
 }
 
