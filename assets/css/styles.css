@@ -4,6 +4,12 @@
   font-size: 20px;
   color: #3f018d;
 }
+.sidebar{
+  position:sticky;
+  top:70;
+  height:800px;
+  overflow-y:scroll;
+  }
 
 .card:hover {
   box-shadow: 0px 0px 10px rgba(0,141,221,0.25);
